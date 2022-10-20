@@ -1,14 +1,14 @@
 spring:
   servlet:
     multipart:
-      max-file-size: 5MB  # ?? ? ?? ?? ?? ??
-      max-request-size: 15MB # ???? ?? ?? ?? ??
+      max-file-size: 5MB  # 개별 파일 최대 용량
+      max-request-size: 15MB # 모든 업로드 파일 한계 최대 용량
 
 
 cloud:
   aws:
     s3:
-      bucket: ?? ??
-      accessKey: ??? ?
-      secretKey: ?? ?
+      bucket: 버킷 이름
+      accessKey: IAM 엑세스 키
+      secretKey: IAM 비밀 키
       region: ap-northeast-2
